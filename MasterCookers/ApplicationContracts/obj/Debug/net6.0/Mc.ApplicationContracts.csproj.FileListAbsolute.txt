@@ -1,0 +1,11 @@
+F:\Mc\MasterCookers\ApplicationContracts\bin\Debug\net6.0\Mc.ApplicationContracts.deps.json
+F:\Mc\MasterCookers\ApplicationContracts\bin\Debug\net6.0\Mc.ApplicationContracts.dll
+F:\Mc\MasterCookers\ApplicationContracts\bin\Debug\net6.0\ref\Mc.ApplicationContracts.dll
+F:\Mc\MasterCookers\ApplicationContracts\bin\Debug\net6.0\Mc.ApplicationContracts.pdb
+F:\Mc\MasterCookers\ApplicationContracts\obj\Debug\net6.0\Mc.ApplicationContracts.GeneratedMSBuildEditorConfig.editorconfig
+F:\Mc\MasterCookers\ApplicationContracts\obj\Debug\net6.0\Mc.ApplicationContracts.AssemblyInfoInputs.cache
+F:\Mc\MasterCookers\ApplicationContracts\obj\Debug\net6.0\Mc.ApplicationContracts.AssemblyInfo.cs
+F:\Mc\MasterCookers\ApplicationContracts\obj\Debug\net6.0\Mc.ApplicationContracts.csproj.CoreCompileInputs.cache
+F:\Mc\MasterCookers\ApplicationContracts\obj\Debug\net6.0\Mc.ApplicationContracts.dll
+F:\Mc\MasterCookers\ApplicationContracts\obj\Debug\net6.0\ref\Mc.ApplicationContracts.dll
+F:\Mc\MasterCookers\ApplicationContracts\obj\Debug\net6.0\Mc.ApplicationContracts.pdb

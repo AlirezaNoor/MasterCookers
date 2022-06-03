@@ -1,0 +1,17 @@
+F:\Mc\MasterCookers\Mc.Insfrastucture\bin\Debug\net6.0\Mc.Insfrastucture.deps.json
+F:\Mc\MasterCookers\Mc.Insfrastucture\bin\Debug\net6.0\Mc.Insfrastucture.dll
+F:\Mc\MasterCookers\Mc.Insfrastucture\bin\Debug\net6.0\ref\Mc.Insfrastucture.dll
+F:\Mc\MasterCookers\Mc.Insfrastucture\bin\Debug\net6.0\Mc.Insfrastucture.pdb
+F:\Mc\MasterCookers\Mc.Insfrastucture\bin\Debug\net6.0\Mc.Domin.dll
+F:\Mc\MasterCookers\Mc.Insfrastucture\bin\Debug\net6.0\Mc.Domin.pdb
+F:\Mc\MasterCookers\Mc.Insfrastucture\obj\Debug\net6.0\Mc.Insfrastucture.csproj.AssemblyReference.cache
+F:\Mc\MasterCookers\Mc.Insfrastucture\obj\Debug\net6.0\Mc.Insfrastucture.GeneratedMSBuildEditorConfig.editorconfig
+F:\Mc\MasterCookers\Mc.Insfrastucture\obj\Debug\net6.0\Mc.Insfrastucture.AssemblyInfoInputs.cache
+F:\Mc\MasterCookers\Mc.Insfrastucture\obj\Debug\net6.0\Mc.Insfrastucture.AssemblyInfo.cs
+F:\Mc\MasterCookers\Mc.Insfrastucture\obj\Debug\net6.0\Mc.Insfrastucture.csproj.CoreCompileInputs.cache
+F:\Mc\MasterCookers\Mc.Insfrastucture\obj\Debug\net6.0\Mc.Insfrastucture.csproj.CopyComplete
+F:\Mc\MasterCookers\Mc.Insfrastucture\obj\Debug\net6.0\Mc.Insfrastucture.dll
+F:\Mc\MasterCookers\Mc.Insfrastucture\obj\Debug\net6.0\ref\Mc.Insfrastucture.dll
+F:\Mc\MasterCookers\Mc.Insfrastucture\obj\Debug\net6.0\Mc.Insfrastucture.pdb
+F:\Mc\MasterCookers\Mc.Insfrastucture\bin\Debug\net6.0\Mc.Insfrastucture.runtimeconfig.json
+F:\Mc\MasterCookers\Mc.Insfrastucture\obj\Debug\net6.0\Mc.Insfrastucture.genruntimeconfig.cache

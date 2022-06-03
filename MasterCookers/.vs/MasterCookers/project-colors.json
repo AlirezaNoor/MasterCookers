@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "d6918a30-9f23-4552-9c10-4e0315297a88": {
+      "ProjectGuid": "d6918a30-9f23-4552-9c10-4e0315297a88",
+      "DisplayName": "Mc.Domin",
+      "ColorIndex": 0
+    },
+    "7dbf1e4a-d850-443f-9b39-66e977979a97": {
+      "ProjectGuid": "7dbf1e4a-d850-443f-9b39-66e977979a97",
+      "DisplayName": "Mc.ApplicationContracts",
+      "ColorIndex": 1
+    },
+    "6d55067b-f9ee-46d0-846d-15ef628c10c6": {
+      "ProjectGuid": "6d55067b-f9ee-46d0-846d-15ef628c10c6",
+      "DisplayName": "Mc.Application",
+      "ColorIndex": 2
+    },
+    "2a7d5b0e-0fde-44be-b476-c96d57c1232f": {
+      "ProjectGuid": "2a7d5b0e-0fde-44be-b476-c96d57c1232f",
+      "DisplayName": "Mc.Insfrastucture",
+      "ColorIndex": 3
+    },
+    "50c7134f-5755-413e-a746-a6c0b5757450": {
+      "ProjectGuid": "50c7134f-5755-413e-a746-a6c0b5757450",
+      "DisplayName": "MC.Presentation.MVCCore",
+      "ColorIndex": 4
+    },
+    "d98275fd-560d-4f40-abd2-7cf77e573f11": {
+      "ProjectGuid": "d98275fd-560d-4f40-abd2-7cf77e573f11",
+      "DisplayName": "MC.Presentation.MVC",
+      "ColorIndex": 5
+    },
+    "497ba013-56db-4d63-8a78-cdf876777d0d": {
+      "ProjectGuid": "497ba013-56db-4d63-8a78-cdf876777d0d",
+      "DisplayName": "MC.Presentations.MVCCore",
+      "ColorIndex": 6
+    }
+  },
+  "NextColorIndex": 7
+}

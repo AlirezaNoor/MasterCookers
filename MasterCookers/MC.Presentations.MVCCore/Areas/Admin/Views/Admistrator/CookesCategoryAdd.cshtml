@@ -1,0 +1,10 @@
+﻿@model Mc.ApplicationContracts.CookesCategory.CreateCategory;
+@{
+    ViewData["Title"] = "CookesCategoryAdd";
+}
+
+<form method="post" asp-action="CookesCategoryAdd">
+    <input asp-for="@Model.title"/>
+    <input type="submit" class="btn btn-success"/>
+</form>
+

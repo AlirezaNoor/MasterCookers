@@ -1,0 +1,12 @@
+F:\Mc\MasterCookers\Mc.Domin\bin\Debug\net6.0\Mc.Domin.deps.json
+F:\Mc\MasterCookers\Mc.Domin\bin\Debug\net6.0\Mc.Domin.dll
+F:\Mc\MasterCookers\Mc.Domin\bin\Debug\net6.0\ref\Mc.Domin.dll
+F:\Mc\MasterCookers\Mc.Domin\bin\Debug\net6.0\Mc.Domin.pdb
+F:\Mc\MasterCookers\Mc.Domin\obj\Debug\net6.0\Mc.Domin.GeneratedMSBuildEditorConfig.editorconfig
+F:\Mc\MasterCookers\Mc.Domin\obj\Debug\net6.0\Mc.Domin.AssemblyInfoInputs.cache
+F:\Mc\MasterCookers\Mc.Domin\obj\Debug\net6.0\Mc.Domin.AssemblyInfo.cs
+F:\Mc\MasterCookers\Mc.Domin\obj\Debug\net6.0\Mc.Domin.csproj.CoreCompileInputs.cache
+F:\Mc\MasterCookers\Mc.Domin\obj\Debug\net6.0\Mc.Domin.dll
+F:\Mc\MasterCookers\Mc.Domin\obj\Debug\net6.0\ref\Mc.Domin.dll
+F:\Mc\MasterCookers\Mc.Domin\obj\Debug\net6.0\Mc.Domin.pdb
+F:\Mc\MasterCookers\Mc.Domin\obj\Debug\net6.0\Mc.Domin.csproj.AssemblyReference.cache
