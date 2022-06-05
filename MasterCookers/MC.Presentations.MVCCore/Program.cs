@@ -2,6 +2,9 @@ using Mc.Application;
 using Mc.Application.CookesCategoryApplications;
 using Mc.ApplicationContracts.CookesCategory;
 using CookesCategores;
+using Mc.Application.CookesAplications;
+using Mc.ApplicationContracts.CookApplication;
+using Mc.Domin.Cookes;
 using Mc.Insfrastucture.CookesReposetories;
 using Mc.Insfrastucture.DbContext;
 using Microsoft.EntityFrameworkCore;
@@ -16,6 +19,8 @@ builder.Services.AddDbContext<MyContext>(x => x.UseSqlServer(builder.Configurati
 
 builder.Services.AddTransient<ICookesCategoryReposetory, CookesCategoryReposetory>();
 builder.Services.AddTransient<ICookesCategoryApplication, CookesCategoryApplication>();
+builder.Services.AddTransient<ICookesAplications, CookesAplications>();
+builder.Services.AddTransient<ICookerReposetoy, CookerReposetoy>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

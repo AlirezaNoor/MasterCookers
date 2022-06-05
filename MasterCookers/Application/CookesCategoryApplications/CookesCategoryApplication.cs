@@ -41,6 +41,20 @@ namespace Mc.Application.CookesCategoryApplications
              
         }
 
+        public void Active(long id)
+        {
+           var category1= _categoryReposetory.get(id);
+           category1.Active();
+           _categoryReposetory.SaveChanges();
+        }
+
+        public void Deactive(long id)
+        {
+            var category1 = _categoryReposetory.get(id);
+            category1.deactive();
+            _categoryReposetory.SaveChanges();
+        }
+
 
         public List<CookesCategoryViewmodel> List()
         {

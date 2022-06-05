@@ -42,16 +42,16 @@
                             <a class="btn btn-warning float-left mr-3" asp-action="CookesCategoryEdtided" asp-route-id="@articleCategory.Id">Rename</a>
                             @if (articleCategory.IsDeleted)
                             {
-                                <form method="post" asp-page-handler="Activate" class="float-left">
+                                <form method="post"asp-action="active"class="float-left">
                                     <button class="btn btn-success">Activate</button>
-                                    <input type="hidden" name="id" value="@articleCategory.Id" />
+                                    <input type="hidden" name="id" value="@articleCategory.Id" asp-route-id="@articleCategory.Id" />
                                 </form>
                             }
                             else
                             {
-                                <form method="post" asp-page-handler="Remove" class="float-left">
+                                <form method="post" asp-action="delete" class="float-left">
                                     <button class="btn btn-danger">Remove</button>
-                                    <input type="hidden" name="id" value="@articleCategory.Id" />
+                                    <input type="hidden" name="id" value="@articleCategory.Id" asp-route-id="@articleCategory.Id" />
                                 </form>
                             }
                         </td>

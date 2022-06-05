@@ -1,6 +1,8 @@
-﻿using Mc.ApplicationContracts.CookesCategory;
+﻿using Mc.ApplicationContracts.CookApplication;
+using Mc.ApplicationContracts.CookesCategory;
 using MC.Presentations.MVCCore.Areas.Admin.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace MC.Presentations.MVCCore.Areas.Admin.Controllers
 {
@@ -8,10 +10,12 @@ namespace MC.Presentations.MVCCore.Areas.Admin.Controllers
     public class Admistrator : Controller
     {
         private readonly ICookesCategoryApplication _categoryApplication;
+        private readonly ICookesAplications _aplications;
 
-        public Admistrator(ICookesCategoryApplication categoryApplication)
+        public Admistrator(ICookesCategoryApplication categoryApplication, ICookesAplications aplications)
         {
             _categoryApplication = categoryApplication;
+            _aplications = aplications;
         }
 
         public IActionResult Index()
@@ -50,6 +54,42 @@ namespace MC.Presentations.MVCCore.Areas.Admin.Controllers
             _categoryApplication.EditedCategory(command.editcategory);
            return  RedirectToAction("CookeCategory");
 
+        }
+
+        [HttpPost]
+        public IActionResult delete(long id)
+        {
+            _categoryApplication.Deactive(id);
+            return RedirectToAction("CookeCategory");
+        }
+
+
+        [HttpPost]
+        public IActionResult active(long id)
+        {
+            _categoryApplication.Active(id);
+            return RedirectToAction("CookeCategory");
+        }
+
+        public IActionResult CookesList()
+        {
+          
+
+            return View(_aplications.list());
+        }
+        [HttpGet]
+        public IActionResult CookesAdd()
+        {
+            var model = new CookesDteails();
+            model.listed = _categoryApplication.List().Select(x => new SelectListItem(x.Title, x.Id.ToString()))
+                .ToList();              
+            return View(model);
+        }
+        [HttpPost]
+        public IActionResult CookesAdd(CookesDteails command)
+        {
+            _aplications.Createcookes(command.createcookes);
+            return RedirectToAction("CookesList");
         }
 
     }

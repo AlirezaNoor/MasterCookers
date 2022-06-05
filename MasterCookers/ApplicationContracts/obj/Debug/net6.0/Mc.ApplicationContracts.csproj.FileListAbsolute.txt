@@ -9,3 +9,4 @@ F:\Mc\MasterCookers\ApplicationContracts\obj\Debug\net6.0\Mc.ApplicationContract
 F:\Mc\MasterCookers\ApplicationContracts\obj\Debug\net6.0\Mc.ApplicationContracts.dll
 F:\Mc\MasterCookers\ApplicationContracts\obj\Debug\net6.0\ref\Mc.ApplicationContracts.dll
 F:\Mc\MasterCookers\ApplicationContracts\obj\Debug\net6.0\Mc.ApplicationContracts.pdb
+F:\Mc\MasterCookers\ApplicationContracts\obj\Debug\net6.0\Mc.ApplicationContracts.csproj.AssemblyReference.cache

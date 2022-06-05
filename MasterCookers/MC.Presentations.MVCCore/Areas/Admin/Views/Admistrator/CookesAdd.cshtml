@@ -1,0 +1,43 @@
+﻿@model MC.Presentations.MVCCore.Areas.Admin.Models.CookesDteails
+
+
+<form method="post" asp-action="CookesAdd">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <div class="col-md-6 col-sm-12">
+        <div class="form-group">
+            <label>Title:</label>
+            <input asp-for="createcookes.Title"/>
+        </div>
+    </div>
+    
+    <div class="col-md-6 col-sm-12">
+        <label>shortdiscription:</label>
+        <div class="form-group">
+            <input asp-for="createcookes.shortdicriptio"/>
+        </div>
+    </div>
+
+    <div class="col-md-6 col-sm-12">
+        <label>shortdiscription:</label>
+        <div class="form-group">
+            <input asp-for="createcookes.image"/>
+        </div>
+    </div>
+
+
+    <div class="col-md-6 col-sm-12">
+        <div class="form-group">
+            <label>contract:</label>
+            <textarea asp-for="createcookes.contant" rows="20"></textarea>
+        </div>
+    </div>
+ 
+    <select asp-items="Model.listed"  asp-for="createcookes.categoryId" class="form-control">
+        <option value="0">Select Article Category</option>
+    </select>
+    <div class="form-group">
+        <input type="submit"   class="btn btn-success"/>
+        <a class="btn btn-dark"  asp-action="CookesList">Back to list</a>
+    </div>
+
+</form>
