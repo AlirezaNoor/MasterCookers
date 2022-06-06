@@ -1,0 +1,46 @@
+﻿@model MC.Presentations.MVCCore.Areas.Admin.Models.Editedclass
+@{
+    ViewData["Title"] = "EditeCookes";
+}
+<form method="post" asp-action="EditeCookes">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <div class="col-md-6 col-sm-12">
+        <div class="form-group">
+            <label>Title:</label>
+            <input asp-for="editcook.Title"/>
+            <input asp-for="editcook.Id" type="hidden"/>
+
+        </div>
+    </div>
+    
+    <div class="col-md-6 col-sm-12">
+        <label>shortdiscription:</label>
+        <div class="form-group">
+            <input asp-for="editcook.shortdicriptio"/>
+        </div>
+    </div>
+
+    <div class="col-md-6 col-sm-12">
+        <label>image:</label>
+        <div class="form-group">
+            <input asp-for="editcook.image"/>
+        </div>
+    </div>
+
+
+    <div class="col-md-6 col-sm-12">
+        <div class="form-group">
+            <label>contract:</label>
+            <textarea asp-for="editcook.contant" rows="20"></textarea>
+        </div>
+    </div>
+ 
+    <select asp-items="Model.selectlist"  asp-for="editcook.categoryId" class="form-control">
+        <option value="0">Select Article Category</option>
+    </select>
+    <div class="form-group">
+        <input type="submit"   class="btn btn-success"/>
+        <a class="btn btn-dark"  asp-action="CookesList">Back to list</a>
+    </div>
+
+</form>

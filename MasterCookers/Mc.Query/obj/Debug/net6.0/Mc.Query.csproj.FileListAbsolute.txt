@@ -1,0 +1,17 @@
+F:\Mc\MasterCookers\Mc.Query\bin\Debug\net6.0\Mc.Query.deps.json
+F:\Mc\MasterCookers\Mc.Query\bin\Debug\net6.0\Mc.Query.dll
+F:\Mc\MasterCookers\Mc.Query\bin\Debug\net6.0\ref\Mc.Query.dll
+F:\Mc\MasterCookers\Mc.Query\bin\Debug\net6.0\Mc.Query.pdb
+F:\Mc\MasterCookers\Mc.Query\bin\Debug\net6.0\Mc.Domin.dll
+F:\Mc\MasterCookers\Mc.Query\bin\Debug\net6.0\Mc.Insfrastucture.dll
+F:\Mc\MasterCookers\Mc.Query\bin\Debug\net6.0\Mc.Insfrastucture.pdb
+F:\Mc\MasterCookers\Mc.Query\bin\Debug\net6.0\Mc.Domin.pdb
+F:\Mc\MasterCookers\Mc.Query\obj\Debug\net6.0\Mc.Query.csproj.AssemblyReference.cache
+F:\Mc\MasterCookers\Mc.Query\obj\Debug\net6.0\Mc.Query.GeneratedMSBuildEditorConfig.editorconfig
+F:\Mc\MasterCookers\Mc.Query\obj\Debug\net6.0\Mc.Query.AssemblyInfoInputs.cache
+F:\Mc\MasterCookers\Mc.Query\obj\Debug\net6.0\Mc.Query.AssemblyInfo.cs
+F:\Mc\MasterCookers\Mc.Query\obj\Debug\net6.0\Mc.Query.csproj.CoreCompileInputs.cache
+F:\Mc\MasterCookers\Mc.Query\obj\Debug\net6.0\Mc.Query.csproj.CopyComplete
+F:\Mc\MasterCookers\Mc.Query\obj\Debug\net6.0\Mc.Query.dll
+F:\Mc\MasterCookers\Mc.Query\obj\Debug\net6.0\ref\Mc.Query.dll
+F:\Mc\MasterCookers\Mc.Query\obj\Debug\net6.0\Mc.Query.pdb

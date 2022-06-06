@@ -273,3 +273,5 @@ F:\Mc\MasterCookers\MC.Presentations.MVCCore\bin\Debug\net6.0\zh-Hant\Microsoft.
 F:\Mc\MasterCookers\MC.Presentations.MVCCore\bin\Debug\net6.0\runtimes\win-arm\lib\net6.0\dotnet-aspnet-codegenerator-design.exe
 F:\Mc\MasterCookers\MC.Presentations.MVCCore\bin\Debug\net6.0\runtimes\win-arm64\lib\net6.0\dotnet-aspnet-codegenerator-design.exe
 F:\Mc\MasterCookers\MC.Presentations.MVCCore\obj\Debug\net6.0\MC.Presentations.MVCCore.MvcApplicationPartsAssemblyInfo.cs
+F:\Mc\MasterCookers\MC.Presentations.MVCCore\bin\Debug\net6.0\Mc.Query.dll
+F:\Mc\MasterCookers\MC.Presentations.MVCCore\bin\Debug\net6.0\Mc.Query.pdb

@@ -15,6 +15,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = F:\Mc\MasterCookers\MC.Presentations.MVCCore
 build_property._RazorSourceGeneratorDebug = 
 
+[F:/Mc/MasterCookers/MC.Presentations.MVCCore/Areas/Admin/Views/Admistrator/CommentList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaXN0cmF0b3JcQ29tbWVudExpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [F:/Mc/MasterCookers/MC.Presentations.MVCCore/Areas/Admin/Views/Admistrator/CookeCategory.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaXN0cmF0b3JcQ29va2VDYXRlZ29yeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -35,6 +39,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaXN0cmF0b3JcQ29va2VzTGlzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[F:/Mc/MasterCookers/MC.Presentations.MVCCore/Areas/Admin/Views/Admistrator/EditeCookes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaXN0cmF0b3JcRWRpdGVDb29rZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [F:/Mc/MasterCookers/MC.Presentations.MVCCore/Areas/Admin/Views/Admistrator/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaXN0cmF0b3JcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -53,6 +61,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [F:/Mc/MasterCookers/MC.Presentations.MVCCore/Areas/Admin/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Mc/MasterCookers/MC.Presentations.MVCCore/Views/Home/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [F:/Mc/MasterCookers/MC.Presentations.MVCCore/Views/Home/Index.cshtml]

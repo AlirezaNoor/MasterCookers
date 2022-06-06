@@ -1,4 +1,5 @@
-﻿using Mc.ApplicationContracts.CookApplication;
+﻿using Mc.ApplicationContracts.Comment;
+using Mc.ApplicationContracts.CookApplication;
 using Mc.ApplicationContracts.CookesCategory;
 using MC.Presentations.MVCCore.Areas.Admin.Models;
 using Microsoft.AspNetCore.Mvc;
@@ -11,11 +12,12 @@ namespace MC.Presentations.MVCCore.Areas.Admin.Controllers
     {
         private readonly ICookesCategoryApplication _categoryApplication;
         private readonly ICookesAplications _aplications;
-
-        public Admistrator(ICookesCategoryApplication categoryApplication, ICookesAplications aplications)
+        private readonly ICommentApplction _applction;
+        public Admistrator(ICookesCategoryApplication categoryApplication, ICookesAplications aplications, ICommentApplction applction)
         {
             _categoryApplication = categoryApplication;
             _aplications = aplications;
+            _applction = applction;
         }
 
         public IActionResult Index()
@@ -90,6 +92,44 @@ namespace MC.Presentations.MVCCore.Areas.Admin.Controllers
         {
             _aplications.Createcookes(command.createcookes);
             return RedirectToAction("CookesList");
+        }
+        [HttpGet]
+        public IActionResult EditeCookes(long id)
+        {
+            var model = new Editedclass();
+            model.selectlist = _categoryApplication.List().Select(x => new SelectListItem(x.Title, x.Id.ToString()))
+                .ToList();
+            model.editcook = _aplications.Filded(id);
+            return View(model);
+        }
+
+        [HttpPost]
+        public IActionResult EditeCookes(Editedclass command)
+        {
+
+           _aplications.EditedCookes(command.editcook);
+           
+            return RedirectToAction("CookesList");
+        }
+
+        public IActionResult CommentList()
+        {
+          
+            
+            return View(_applction.list());
+        }
+        [HttpPost]
+        public IActionResult Confirm(long id)
+        {
+            _applction.aplidet(id);
+            return RedirectToAction("CommentList");
+        }
+
+        [HttpPost]
+        public IActionResult Cancel(long id)
+        {
+            _applction.Cancell(id);
+            return RedirectToAction("CommentList");
         }
 
     }

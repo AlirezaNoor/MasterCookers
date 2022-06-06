@@ -3141,6 +3141,19 @@
         "runtime": {
           "bin/placeholder/Mc.Insfrastucture.dll": {}
         }
+      },
+      "Mc.Query/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Mc.Insfrastucture": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Mc.Query.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Mc.Query.dll": {}
+        }
       }
     }
   },
@@ -9651,12 +9664,18 @@
       "type": "project",
       "path": "../Mc.Insfrastucture/Mc.Insfrastucture.csproj",
       "msbuildProject": "../Mc.Insfrastucture/Mc.Insfrastucture.csproj"
+    },
+    "Mc.Query/1.0.0": {
+      "type": "project",
+      "path": "../Mc.Query/Mc.Query.csproj",
+      "msbuildProject": "../Mc.Query/Mc.Query.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Mc.Application >= 1.0.0",
       "Mc.ApplicationContracts >= 1.0.0",
+      "Mc.Query >= 1.0.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 6.0.5",
       "Swashbuckle.AspNetCore >= 6.3.0"
     ]
@@ -9692,6 +9711,9 @@
             },
             "F:\\Mc\\MasterCookers\\Application\\Mc.Application.csproj": {
               "projectPath": "F:\\Mc\\MasterCookers\\Application\\Mc.Application.csproj"
+            },
+            "F:\\Mc\\MasterCookers\\Mc.Query\\Mc.Query.csproj": {
+              "projectPath": "F:\\Mc\\MasterCookers\\Mc.Query\\Mc.Query.csproj"
             }
           }
         }

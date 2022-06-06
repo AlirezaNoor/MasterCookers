@@ -10,6 +10,7 @@
         "dependencies": {
           "Mc.Application": "1.0.0",
           "Mc.ApplicationContracts": "1.0.0",
+          "Mc.Query": "1.0.0",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "6.0.5",
           "Swashbuckle.AspNetCore": "6.3.0"
         },
@@ -2276,6 +2277,14 @@
         "runtime": {
           "Mc.Insfrastucture.dll": {}
         }
+      },
+      "Mc.Query/1.0.0": {
+        "dependencies": {
+          "Mc.Insfrastucture": "1.0.0"
+        },
+        "runtime": {
+          "Mc.Query.dll": {}
+        }
       }
     }
   },
@@ -3526,6 +3535,11 @@
       "sha512": ""
     },
     "Mc.Insfrastucture/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Mc.Query/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

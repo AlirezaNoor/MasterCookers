@@ -32,5 +32,17 @@ namespace Mc.Domin.Cookes
         protected Cookes()
         {
         }
+
+        public void Edited(string Title, string shortdicriptio, string contant, string image, long categoryId)
+        {
+            this.Title = Title;
+            this.shortdicriptio = shortdicriptio;
+            this.contant = contant;
+            this.image = image;
+            this.categoryId = categoryId;
+            this.IsDeleted = false;
+            DateTime = DateTime.Now;
+        }
     }
+    
 }

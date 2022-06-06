@@ -38,7 +38,7 @@
                         </td>
                         <td>@cookesViewModels.DateTime</td>
                         <td>
-                            <a class="btn btn-warning float-left mr-3" asp-action="CookesCategoryEdtided" asp-route-id="@cookesViewModels.Id">Rename</a>
+                            <a class="btn btn-warning float-left mr-3" asp-action="EditeCookes" asp-route-id="@cookesViewModels.Id">Rename</a>
                             @if (cookesViewModels.IsDeleted)
                             {
                                 <form method="post"asp-action="active"class="float-left">

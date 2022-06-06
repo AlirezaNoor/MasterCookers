@@ -37,7 +37,7 @@ namespace Mc.Application.CookesAplications
         public void EditedCookes(EditCookes command)
         {
            var oneCookes= _cookerReposetoy.Edited(command.Id);
-           var newCookes = new Cookes(command.Title, command.shortdicriptio, command.contant, command.image,
+           oneCookes.Edited(command.Title, command.shortdicriptio, command.contant, command.image,
                command.categoryId);
            _cookerReposetoy.savechange();
         }
@@ -52,7 +52,7 @@ namespace Mc.Application.CookesAplications
                 categoryId = oneModel.categoryId,
                 contant = oneModel.contant,
                 image = oneModel.image,
-                shortdicriptio = oneModel.contant,
+                shortdicriptio = oneModel.shortdicriptio,
             };
         }
     }
