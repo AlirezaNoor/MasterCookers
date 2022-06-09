@@ -1,21 +1,18 @@
 ﻿using System.Reflection;
+using _01.Framewoerk.MyDomin;
 using Mc.Domin.Cookes;
 
 namespace CookesCategores
 {
-    public class CookesCategores
+    public class CookesCategores:GenericDomin<long>
     {
-        public long Id { get; private set; }
         public string Title { get; private set; }
-        public DateTime Datatime { get; private set; }
         public bool IsDeleted { get; private set; }
         public ICollection<Cookes> Cookes { get; private set; }
 
         public CookesCategores(string title)
         {
-
             Title = title;
-            Datatime = DateTime.Now;
             IsDeleted = false;
         }
 

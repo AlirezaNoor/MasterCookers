@@ -15,3 +15,5 @@ F:\Mc\MasterCookers\Mc.Insfrastucture\obj\Debug\net6.0\ref\Mc.Insfrastucture.dll
 F:\Mc\MasterCookers\Mc.Insfrastucture\obj\Debug\net6.0\Mc.Insfrastucture.pdb
 F:\Mc\MasterCookers\Mc.Insfrastucture\bin\Debug\net6.0\Mc.Insfrastucture.runtimeconfig.json
 F:\Mc\MasterCookers\Mc.Insfrastucture\obj\Debug\net6.0\Mc.Insfrastucture.genruntimeconfig.cache
+F:\Mc\MasterCookers\Mc.Insfrastucture\bin\Debug\net6.0\01.Framewoerk.dll
+F:\Mc\MasterCookers\Mc.Insfrastucture\bin\Debug\net6.0\01.Framewoerk.pdb

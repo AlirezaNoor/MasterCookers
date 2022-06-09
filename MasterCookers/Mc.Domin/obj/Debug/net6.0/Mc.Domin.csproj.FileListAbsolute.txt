@@ -10,3 +10,6 @@ F:\Mc\MasterCookers\Mc.Domin\obj\Debug\net6.0\Mc.Domin.dll
 F:\Mc\MasterCookers\Mc.Domin\obj\Debug\net6.0\ref\Mc.Domin.dll
 F:\Mc\MasterCookers\Mc.Domin\obj\Debug\net6.0\Mc.Domin.pdb
 F:\Mc\MasterCookers\Mc.Domin\obj\Debug\net6.0\Mc.Domin.csproj.AssemblyReference.cache
+F:\Mc\MasterCookers\Mc.Domin\bin\Debug\net6.0\01.Framewoerk.dll
+F:\Mc\MasterCookers\Mc.Domin\bin\Debug\net6.0\01.Framewoerk.pdb
+F:\Mc\MasterCookers\Mc.Domin\obj\Debug\net6.0\Mc.Domin.csproj.CopyComplete

@@ -16,7 +16,7 @@ namespace Mc.Insfrastucture.Mapping
             builder.ToTable("Cookess");
             builder.Property(x => x.Title);
             builder.Property(x => x.IsDeleted);
-            builder.Property(x => x.DateTime);
+            builder.Property(x => x.Datatime);
             builder.Property(x => x.contant);
             builder.Property(x => x.image);
             builder.Property(x => x.shortdicriptio);

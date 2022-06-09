@@ -17,3 +17,5 @@ F:\Mc\MasterCookers\Application\bin\Debug\net6.0\Mc.Domin.dll
 F:\Mc\MasterCookers\Application\bin\Debug\net6.0\Mc.Insfrastucture.dll
 F:\Mc\MasterCookers\Application\bin\Debug\net6.0\Mc.Insfrastucture.pdb
 F:\Mc\MasterCookers\Application\bin\Debug\net6.0\Mc.Domin.pdb
+F:\Mc\MasterCookers\Application\bin\Debug\net6.0\01.Framewoerk.dll
+F:\Mc\MasterCookers\Application\bin\Debug\net6.0\01.Framewoerk.pdb

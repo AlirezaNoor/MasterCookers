@@ -3,15 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using _01.Framewoerk.MyReposeory;
 
 namespace Mc.Domin.Cookes
 {
-    public interface ICookerReposetoy
+    public interface ICookerReposetoy:IReposetory<long,Cookes>
     {
-        void create(Cookes entity);
-        List<Cookes> GetAll();
-        Cookes Edited(long id);
-        void savechange();
+
 
 
     }

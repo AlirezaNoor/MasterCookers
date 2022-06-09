@@ -23,7 +23,7 @@ namespace Mc.Query
                 image = x.image,
                 Categorytiltle = x.CookesCategores.Title,
                 shortdicriptio = x.shortdicriptio,
-                Datatime = x.DateTime.ToString(CultureInfo.InvariantCulture),
+                Datatime = x.Datatime.ToString(CultureInfo.InvariantCulture),
             }).ToList();
         }
 
@@ -34,7 +34,7 @@ namespace Mc.Query
             {
 id = model.Id,
                 Title = model.Title,
-                Datatime = model.DateTime.ToString(CultureInfo.InvariantCulture),
+                Datatime = model.Datatime.ToString(CultureInfo.InvariantCulture),
                 contant = model.contant,
                 Categorytiltle = model.CookesCategores.Title,
                 image = model.image,

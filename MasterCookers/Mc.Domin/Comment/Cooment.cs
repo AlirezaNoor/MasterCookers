@@ -1,12 +1,12 @@
-﻿namespace Mc.Domin.Comment
+﻿using _01.Framewoerk.MyDomin;
+
+namespace Mc.Domin.Comment
 {
-    public class Cooment
+    public class Cooment:GenericDomin<long>
     {
-        public long Id { get; private set; }
         public string Name { get; private set; }
         public string Email { get; private set; }
         public string contant { get; private set; }
-        public DateTime Datatime { get; set; }
         public long  statuse { get; private set; }
         public long Cookesid { get; private set; }
 
@@ -16,7 +16,6 @@
             Email = email;
             this.contant = contant;
             Cookesid = cookesid;
-            Datatime=DateTime.Now;
             statuse = Statuses.dontsea;
 
 

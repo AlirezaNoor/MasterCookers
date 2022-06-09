@@ -595,9 +595,25 @@
           }
         }
       },
+      "01.Framewoerk/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.5"
+        },
+        "compile": {
+          "bin/placeholder/01.Framewoerk.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/01.Framewoerk.dll": {}
+        }
+      },
       "Mc.Domin/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "01.Framewoerk": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Mc.Domin.dll": {}
         },
@@ -1784,6 +1800,11 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "01.Framewoerk/1.0.0": {
+      "type": "project",
+      "path": "../01.Framewoerk/01.Framewoerk.csproj",
+      "msbuildProject": "../01.Framewoerk/01.Framewoerk.csproj"
     },
     "Mc.Domin/1.0.0": {
       "type": "project",

@@ -15,3 +15,5 @@ F:\Mc\MasterCookers\Mc.Query\obj\Debug\net6.0\Mc.Query.csproj.CopyComplete
 F:\Mc\MasterCookers\Mc.Query\obj\Debug\net6.0\Mc.Query.dll
 F:\Mc\MasterCookers\Mc.Query\obj\Debug\net6.0\ref\Mc.Query.dll
 F:\Mc\MasterCookers\Mc.Query\obj\Debug\net6.0\Mc.Query.pdb
+F:\Mc\MasterCookers\Mc.Query\bin\Debug\net6.0\01.Framewoerk.dll
+F:\Mc\MasterCookers\Mc.Query\bin\Debug\net6.0\01.Framewoerk.pdb

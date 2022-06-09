@@ -1,3 +1,4 @@
+using _01.Framewoerk.UnitOfWork;
 using Mc.Application;
 using Mc.Application.CookesCategoryApplications;
 using Mc.ApplicationContracts.CookesCategory;
@@ -10,6 +11,7 @@ using Mc.Domin.Cookes;
 using Mc.Insfrastucture;
 using Mc.Insfrastucture.CookesReposetories;
 using Mc.Insfrastucture.DbContext;
+using Mc.Insfrastucture.UnitOfWork;
 using Mc.Query;
 using Microsoft.EntityFrameworkCore;
 
@@ -28,7 +30,7 @@ builder.Services.AddTransient<ICookerReposetoy, CookerReposetoy>();
 builder.Services.AddTransient<IQuery, Query>();
 builder.Services.AddTransient<ICommentApplction, CommentApplction>();
 builder.Services.AddTransient<ICommetReposetory,CommetReposetory>();
-
+builder.Services.AddTransient<IUnitOfWork, IUnitOfWorkEf>();
 
 var app = builder.Build();
 

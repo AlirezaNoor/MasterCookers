@@ -486,7 +486,18 @@
           }
         }
       },
+      "01.Framewoerk/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.5"
+        },
+        "runtime": {
+          "01.Framewoerk.dll": {}
+        }
+      },
       "Mc.Domin/1.0.0": {
+        "dependencies": {
+          "01.Framewoerk": "1.0.0"
+        },
         "runtime": {
           "Mc.Domin.dll": {}
         }
@@ -799,6 +810,11 @@
       "sha512": "sha512-CeWTdRNfRaSh0pm2gDTJFwVaXfTq6Xwv/sA887iwPTneW7oMtMlpvDIO+U60+3GWTB7Aom6oQwv5VZVUhQRdPQ==",
       "path": "system.windows.extensions/4.7.0",
       "hashPath": "system.windows.extensions.4.7.0.nupkg.sha512"
+    },
+    "01.Framewoerk/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "Mc.Domin/1.0.0": {
       "type": "project",

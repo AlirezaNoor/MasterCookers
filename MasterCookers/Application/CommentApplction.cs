@@ -1,4 +1,5 @@
 ﻿using System.Globalization;
+using _01.Framewoerk.UnitOfWork;
 using Mc.ApplicationContracts.Comment;
 using Mc.Domin.Comment;
 
@@ -7,15 +8,16 @@ namespace Mc.Application
     public class CommentApplction: ICommentApplction
     {
         private readonly ICommetReposetory _reposetory;
-
-        public CommentApplction(ICommetReposetory reposetory)
+        private readonly IUnitOfWork _unitOfWork;
+        public CommentApplction(ICommetReposetory reposetory, IUnitOfWork unitOfWork)
         {
             _reposetory = reposetory;
+            _unitOfWork = unitOfWork;
         }
 
         public List<CommentViewmodel> list()
         {
-            return _reposetory.GetAll().Select(x => new CommentViewmodel()
+            return _reposetory.list().Select(x => new CommentViewmodel()
             {
                 Id = x.Id,
                 Datatime = x.Datatime.ToString(CultureInfo.InvariantCulture),
@@ -31,22 +33,28 @@ namespace Mc.Application
 
         public void create(CreateComment command)
         {
+            _unitOfWork.BiginTran();
             var model = new Cooment(command.Name, command.Email, command.contant, command.Cookesid);
             _reposetory.Create(model);
+            _unitOfWork.ComitedTran();
         }
 
         public void Cancell(long id)
         {
-            var Comment=_reposetory.getbyid(id);
+            _unitOfWork.BiginTran();
+            var Comment=_reposetory.Get(id);
             Comment.Cancell();
-            _reposetory.SaveChanges();
+            // _reposetory.SaveChanges();
+            _unitOfWork.ComitedTran();
         }
 
         public void aplidet(long id)
         {
-            var comment = _reposetory.getbyid(id);
+            _unitOfWork.BiginTran();
+            var comment = _reposetory.Get(id);
             comment.aplait();
-            _reposetory.SaveChanges();
+            // _reposetory.SaveChanges();
+            _unitOfWork.ComitedTran();
         }
 
 

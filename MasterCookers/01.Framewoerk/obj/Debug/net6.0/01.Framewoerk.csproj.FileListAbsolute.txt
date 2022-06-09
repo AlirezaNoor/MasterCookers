@@ -1,0 +1,12 @@
+F:\Mc\MasterCookers\01.Framewoerk\bin\Debug\net6.0\01.Framewoerk.deps.json
+F:\Mc\MasterCookers\01.Framewoerk\bin\Debug\net6.0\01.Framewoerk.dll
+F:\Mc\MasterCookers\01.Framewoerk\bin\Debug\net6.0\ref\01.Framewoerk.dll
+F:\Mc\MasterCookers\01.Framewoerk\bin\Debug\net6.0\01.Framewoerk.pdb
+F:\Mc\MasterCookers\01.Framewoerk\obj\Debug\net6.0\01.Framewoerk.GeneratedMSBuildEditorConfig.editorconfig
+F:\Mc\MasterCookers\01.Framewoerk\obj\Debug\net6.0\01.Framewoerk.AssemblyInfoInputs.cache
+F:\Mc\MasterCookers\01.Framewoerk\obj\Debug\net6.0\01.Framewoerk.AssemblyInfo.cs
+F:\Mc\MasterCookers\01.Framewoerk\obj\Debug\net6.0\01.Framewoerk.csproj.CoreCompileInputs.cache
+F:\Mc\MasterCookers\01.Framewoerk\obj\Debug\net6.0\01.Framewoerk.dll
+F:\Mc\MasterCookers\01.Framewoerk\obj\Debug\net6.0\ref\01.Framewoerk.dll
+F:\Mc\MasterCookers\01.Framewoerk\obj\Debug\net6.0\01.Framewoerk.pdb
+F:\Mc\MasterCookers\01.Framewoerk\obj\Debug\net6.0\01.Framewoerk.csproj.AssemblyReference.cache

@@ -35,7 +35,17 @@
       "ProjectGuid": "497ba013-56db-4d63-8a78-cdf876777d0d",
       "DisplayName": "MC.Presentations.MVCCore",
       "ColorIndex": 6
+    },
+    "146f31c1-4f3d-4667-91e0-32ef80893ae7": {
+      "ProjectGuid": "146f31c1-4f3d-4667-91e0-32ef80893ae7",
+      "DisplayName": "Mc.Query",
+      "ColorIndex": 7
+    },
+    "db3da9eb-60c9-4ffa-9d1f-d16e390c3193": {
+      "ProjectGuid": "db3da9eb-60c9-4ffa-9d1f-d16e390c3193",
+      "DisplayName": "01.Framewoerk",
+      "ColorIndex": 8
     }
   },
-  "NextColorIndex": 7
+  "NextColorIndex": 9
 }

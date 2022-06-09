@@ -2248,6 +2248,14 @@
           "System.Xml.ReaderWriter": "4.3.0"
         }
       },
+      "01.Framewoerk/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.5"
+        },
+        "runtime": {
+          "01.Framewoerk.dll": {}
+        }
+      },
       "Mc.Application/1.0.0": {
         "dependencies": {
           "Mc.ApplicationContracts": "1.0.0",
@@ -2263,6 +2271,9 @@
         }
       },
       "Mc.Domin/1.0.0": {
+        "dependencies": {
+          "01.Framewoerk": "1.0.0"
+        },
         "runtime": {
           "Mc.Domin.dll": {}
         }
@@ -3518,6 +3529,11 @@
       "sha512": "sha512-5zJ0XDxAIg8iy+t4aMnQAu0MqVbqyvfoUVl1yDV61xdo3Vth45oA2FoY4pPkxYAH5f8ixpmTqXeEIya95x0aCQ==",
       "path": "system.xml.xdocument/4.3.0",
       "hashPath": "system.xml.xdocument.4.3.0.nupkg.sha512"
+    },
+    "01.Framewoerk/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "Mc.Application/1.0.0": {
       "type": "project",

@@ -275,3 +275,5 @@ F:\Mc\MasterCookers\MC.Presentations.MVCCore\bin\Debug\net6.0\runtimes\win-arm64
 F:\Mc\MasterCookers\MC.Presentations.MVCCore\obj\Debug\net6.0\MC.Presentations.MVCCore.MvcApplicationPartsAssemblyInfo.cs
 F:\Mc\MasterCookers\MC.Presentations.MVCCore\bin\Debug\net6.0\Mc.Query.dll
 F:\Mc\MasterCookers\MC.Presentations.MVCCore\bin\Debug\net6.0\Mc.Query.pdb
+F:\Mc\MasterCookers\MC.Presentations.MVCCore\bin\Debug\net6.0\01.Framewoerk.dll
+F:\Mc\MasterCookers\MC.Presentations.MVCCore\bin\Debug\net6.0\01.Framewoerk.pdb

@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using _01.Framewoerk.MyDomin;
 
 namespace Mc.Domin.Cookes
 {
-    public class Cookes
+    public class Cookes:GenericDomin<long>
     {
-        public long Id { get; private set; }
         public string Title { get; private set; }
         public string shortdicriptio { get; private set; }
         public string contant { get; private set; }
@@ -16,7 +16,6 @@ namespace Mc.Domin.Cookes
         public long categoryId { get; private set; }
         public CookesCategores.CookesCategores CookesCategores { get; private set; }
         public bool IsDeleted { get;  private set; }
-        public DateTime DateTime { get; private set; }
 
         public Cookes(string Title, string shortdicriptio, string contant, string image, long categoryId)
         {
@@ -26,7 +25,7 @@ namespace Mc.Domin.Cookes
             this.image = image;
             this.categoryId = categoryId;
             this.IsDeleted = false;
-            DateTime=DateTime.Now;
+
         }
 
         protected Cookes()
@@ -41,7 +40,6 @@ namespace Mc.Domin.Cookes
             this.image = image;
             this.categoryId = categoryId;
             this.IsDeleted = false;
-            DateTime = DateTime.Now;
         }
     }
     

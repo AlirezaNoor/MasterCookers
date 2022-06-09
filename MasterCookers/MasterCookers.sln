@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mc.Insfrastucture", "Mc.Ins
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MC.Presentations.MVCCore", "MC.Presentations.MVCCore\MC.Presentations.MVCCore.csproj", "{497BA013-56DB-4D63-8A78-CDF876777D0D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mc.Query", "Mc.Query\Mc.Query.csproj", "{146F31C1-4F3D-4667-91E0-32EF80893AE7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mc.Query", "Mc.Query\Mc.Query.csproj", "{146F31C1-4F3D-4667-91E0-32EF80893AE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.Framewoerk", "01.Framewoerk\01.Framewoerk.csproj", "{DB3DA9EB-60C9-4FFA-9D1F-D16E390C3193}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{146F31C1-4F3D-4667-91E0-32EF80893AE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{146F31C1-4F3D-4667-91E0-32EF80893AE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{146F31C1-4F3D-4667-91E0-32EF80893AE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB3DA9EB-60C9-4FFA-9D1F-D16E390C3193}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB3DA9EB-60C9-4FFA-9D1F-D16E390C3193}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB3DA9EB-60C9-4FFA-9D1F-D16E390C3193}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB3DA9EB-60C9-4FFA-9D1F-D16E390C3193}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
